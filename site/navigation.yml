@@ -1,0 +1,80 @@
+title: The Constitution of 7CS
+version: 0.0.1
+status: genesis
+sections:
+  - title: Start Here
+    path: START_HERE.md
+  - title: Bible
+    path: bible/README.md
+    children:
+      - title: 7CS
+        path: bible/00-Cover.md
+      - title: Preface
+        path: bible/01-Preface.md
+      - title: Every Institution Begins With A Belief
+        path: bible/02-Every-Institution-Begins-With-A-Belief.md
+      - title: The First Connection
+        path: bible/03-The-First-Connection.md
+      - title: Why Seven
+        path: bible/04-Why-Seven.md
+      - title: The Seven Seas
+        path: bible/05-The-Seven-Seas.md
+      - title: The Seven Layers of Connectivity
+        path: bible/06-The-Seven-Layers-of-Connectivity.md
+      - title: Building The Next C
+        path: bible/07-Building-The-Next-C.md
+      - title: Mission
+        path: bible/08-Mission.md
+      - title: Vision
+        path: bible/09-Vision.md
+      - title: Principles
+        path: bible/10-Principles.md
+      - title: The Steward
+        path: bible/11-The-Steward.md
+  - title: Codex
+    path: codex/How-We-Build.md
+    children:
+      - title: How We Build
+        path: codex/How-We-Build.md
+      - title: How We Decide
+        path: codex/How-We-Decide.md
+      - title: How We Invest
+        path: codex/How-We-Invest.md
+      - title: How We Name
+        path: codex/How-We-Name.md
+      - title: How We Partner
+        path: codex/How-We-Partner.md
+  - title: Atlas
+    path: atlas/ecosystem.md
+    children:
+      - title: Ecosystem
+        path: atlas/ecosystem.md
+      - title: Visibility Policy
+        path: atlas/visibility-policy.md
+  - title: Design Language
+    path: design-language/README.md
+    children:
+      - title: Colors
+        path: design-language/colors.md
+      - title: Logo
+        path: design-language/logo.md
+      - title: Typography
+        path: design-language/typography.md
+      - title: Web
+        path: design-language/web.md
+  - title: Governance
+    path: governance/README.md
+    children:
+      - title: Stewardship
+        path: governance/stewardship.md
+      - title: Amendments
+        path: governance/amendments.md
+  - title: Legal
+    path: legal/README.md
+    children:
+      - title: Public Disclaimer
+        path: legal/public-disclaimer.md
+  - title: Journal
+    path: journal/2026.md
+  - title: Archive
+    path: archive/README.md

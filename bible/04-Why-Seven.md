@@ -1,3 +1,11 @@
+---
+title: Why Seven
+section: bible
+order: 4
+status: genesis
+visibility: public
+---
+
 # Why Seven
 
 Seven is a number of completeness.

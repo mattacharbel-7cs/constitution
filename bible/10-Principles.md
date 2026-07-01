@@ -1,3 +1,11 @@
+---
+title: Principles
+section: bible
+order: 10
+status: genesis
+visibility: public
+---
+
 # Principles
 
 ## Long-Term Thinking

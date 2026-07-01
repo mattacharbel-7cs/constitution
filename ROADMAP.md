@@ -1,3 +1,10 @@
+---
+title: Roadmap
+section: root
+status: genesis
+visibility: public
+---
+
 # Roadmap
 
 ## Phase 1 — The Bible

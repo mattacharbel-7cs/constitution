@@ -1,3 +1,10 @@
+---
+title: Welcome, Steward
+section: root
+status: genesis
+visibility: public
+---
+
 # Welcome, Steward.
 
 If you are reading this, you are now responsible for preserving something larger than yourself.

@@ -1,3 +1,11 @@
+---
+title: WiFast
+section: atlas
+category: company
+status: genesis
+visibility: public
+---
+
 # WiFast
 
 ## Role

@@ -1,3 +1,10 @@
+---
+title: Version
+section: root
+status: genesis
+visibility: public
+---
+
 # Version
 
 **7CS Constitution**  

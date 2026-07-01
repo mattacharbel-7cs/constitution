@@ -1,3 +1,11 @@
+---
+title: LBIX
+section: atlas
+category: partnership
+status: genesis
+visibility: public
+---
+
 # LBIX
 
 ## Role

@@ -1,3 +1,11 @@
+---
+title: The Seven Seas
+section: bible
+order: 5
+status: genesis
+visibility: public
+---
+
 # The Seven Seas
 
 Across the Seven Seas means the institution is never limited by geography.

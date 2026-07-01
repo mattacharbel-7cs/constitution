@@ -1,3 +1,10 @@
+---
+title: Company Profile Template
+section: templates
+status: genesis
+visibility: internal
+---
+
 # Company Name
 
 ## Purpose

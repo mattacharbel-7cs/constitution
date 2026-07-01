@@ -1,3 +1,11 @@
+---
+title: Building The Next C
+section: bible
+order: 7
+status: genesis
+visibility: public
+---
+
 # Building The Next C
 
 The final C is intentionally undefined.

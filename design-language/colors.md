@@ -1,3 +1,10 @@
+---
+title: Colors
+section: design-language
+status: genesis
+visibility: public
+---
+
 # Colors
 
 ## Primary

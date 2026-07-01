@@ -1,3 +1,11 @@
+---
+title: Interfiber
+section: atlas
+category: partnership
+status: genesis
+visibility: public
+---
+
 # Interfiber
 
 ## Role

@@ -1,3 +1,11 @@
+---
+title: Preface
+section: bible
+order: 1
+status: genesis
+visibility: public
+---
+
 # Preface
 
 Every generation inherits the work of those before it.
