@@ -8,6 +8,7 @@ const rootDir = path.resolve(__dirname, "..");
 const siteDir = path.join(rootDir, "site");
 const distDir = path.join(siteDir, "dist");
 const assetsDir = path.join(siteDir, "assets");
+const basePath = normalizeBasePath(process.env.BASE_PATH || "");
 
 const motto = [
   "Across the Seven Seas.",
@@ -253,7 +254,28 @@ function markdownPathToHtml(markdownPath) {
 function markdownPathToHref(markdownPath) {
   const normalized = markdownPath.replace(/\\/g, "/");
   const fromRoot = normalized.startsWith("/") ? normalized.slice(1) : normalized;
-  return `/${fromRoot.replace(/\.md$/, "")}/`;
+  return withBasePath(`/${fromRoot.replace(/\.md$/, "")}/`);
+}
+
+function rootHref() {
+  return withBasePath("/");
+}
+
+function withBasePath(href) {
+  if (!href.startsWith("/")) {
+    return href;
+  }
+
+  return `${basePath}${href}`;
+}
+
+function normalizeBasePath(value) {
+  const trimmed = value.trim();
+  if (!trimmed || trimmed === "/") {
+    return "";
+  }
+
+  return `/${trimmed.replace(/^\/+|\/+$/g, "")}`;
 }
 
 function renderHome(nav) {
@@ -280,8 +302,8 @@ function renderHome(nav) {
         ${motto.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
       </div>
       <div class="home-actions">
-        <a href="/bible/README/">Read the Bible</a>
-        <a href="/START_HERE/">Start Here</a>
+        <a href="${markdownPathToHref("bible/README.md")}">Read the Bible</a>
+        <a href="${markdownPathToHref("START_HERE.md")}">Start Here</a>
       </div>
       <section class="section-grid" aria-label="Constitution sections">
         ${sectionCards}
@@ -312,12 +334,12 @@ function layout({ title, nav, currentPath, body }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)} | 7CS Constitution</title>
   <meta name="description" content="The quiet institutional canon of 7CS.">
-  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="${withBasePath("/assets/styles.css")}">
 </head>
 <body>
   <div class="site-shell">
     <aside class="sidebar" aria-label="Primary navigation">
-      <a class="brand" href="/">7CS</a>
+      <a class="brand" href="${rootHref()}">7CS</a>
       ${renderNavigation(nav.sections, currentPath)}
     </aside>
     <div class="page">
