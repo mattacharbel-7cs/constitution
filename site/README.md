@@ -31,6 +31,18 @@ npm run serve
 
 Then open `http://localhost:4177`.
 
+## Deployment
+
+GitHub Actions publishes the site to GitHub Pages when changes are merged into `main`.
+
+The workflow runs:
+
+```sh
+npm run build
+```
+
+It publishes the generated `site/dist` directory.
+
 ## Structure
 
 - `navigation.yml` defines the canonical website navigation.
