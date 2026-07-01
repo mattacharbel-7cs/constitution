@@ -1,3 +1,10 @@
+---
+title: Archive
+section: archive
+status: genesis
+visibility: internal
+---
+
 # Archive
 
 Nothing meaningful is deleted.

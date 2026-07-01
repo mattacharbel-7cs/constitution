@@ -1,3 +1,10 @@
+---
+title: Logo
+section: design-language
+status: genesis
+visibility: public
+---
+
 # Logo
 
 The 7 is the hero.

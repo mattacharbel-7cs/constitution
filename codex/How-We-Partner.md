@@ -1,3 +1,10 @@
+---
+title: How We Partner
+section: codex
+status: genesis
+visibility: public
+---
+
 # How We Partner
 
 Partnerships must be honest, documented and role-clear.

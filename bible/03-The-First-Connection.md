@@ -1,3 +1,11 @@
+---
+title: The First Connection
+section: bible
+order: 3
+status: genesis
+visibility: public
+---
+
 # The First Connection
 
 The story of 7CS does not begin with a logo.

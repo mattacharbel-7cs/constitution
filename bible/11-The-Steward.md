@@ -1,3 +1,11 @@
+---
+title: The Steward
+section: bible
+order: 11
+status: genesis
+visibility: public
+---
+
 # The Steward
 
 The founder is not the permanent center of the institution.

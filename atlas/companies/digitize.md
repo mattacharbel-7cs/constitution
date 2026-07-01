@@ -1,3 +1,11 @@
+---
+title: Digitize Technology
+section: atlas
+category: company
+status: genesis
+visibility: public
+---
+
 # Digitize Technology
 
 ## Role

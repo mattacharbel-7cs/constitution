@@ -1,3 +1,10 @@
+---
+title: Typography
+section: design-language
+status: genesis
+visibility: public
+---
+
 # Typography
 
 Primary: Sora

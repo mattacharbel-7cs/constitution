@@ -1,3 +1,10 @@
+---
+title: How We Decide
+section: codex
+status: genesis
+visibility: public
+---
+
 # How We Decide
 
 Decisions must be judged by:

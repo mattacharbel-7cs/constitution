@@ -1,3 +1,10 @@
+---
+title: The 7CS Ecosystem
+section: atlas
+status: genesis
+visibility: public
+---
+
 # The 7CS Ecosystem
 
 This section is living.

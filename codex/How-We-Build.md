@@ -1,3 +1,10 @@
+---
+title: How We Build
+section: codex
+status: genesis
+visibility: public
+---
+
 # How We Build
 
 We build with patience, discipline and clarity.

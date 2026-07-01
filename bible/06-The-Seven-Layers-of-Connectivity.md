@@ -1,3 +1,11 @@
+---
+title: The Seven Layers of Connectivity
+section: bible
+order: 6
+status: genesis
+visibility: public
+---
+
 # The Seven Layers of Connectivity
 
 Connectivity is not only technical.

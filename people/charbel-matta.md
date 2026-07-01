@@ -1,3 +1,10 @@
+---
+title: Charbel Matta
+section: people
+status: genesis
+visibility: internal
+---
+
 # Charbel Matta
 
 ## Role

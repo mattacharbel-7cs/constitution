@@ -1,3 +1,10 @@
+---
+title: How We Name
+section: codex
+status: genesis
+visibility: public
+---
+
 # How We Name
 
 Names must be short, ownable, scalable and serious.

@@ -1,3 +1,10 @@
+---
+title: Changelog
+section: root
+status: genesis
+visibility: public
+---
+
 # Changelog
 
 ## v0.0.1 — Genesis

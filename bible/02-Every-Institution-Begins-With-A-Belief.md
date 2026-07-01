@@ -1,3 +1,11 @@
+---
+title: Every Institution Begins With A Belief
+section: bible
+order: 2
+status: genesis
+visibility: public
+---
+
 # Every Institution Begins With A Belief
 
 Not with money.

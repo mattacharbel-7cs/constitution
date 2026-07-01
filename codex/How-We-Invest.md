@@ -1,3 +1,10 @@
+---
+title: How We Invest
+section: codex
+status: genesis
+visibility: public
+---
+
 # How We Invest
 
 7CS invests where it can add more than capital.

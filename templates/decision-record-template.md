@@ -1,3 +1,10 @@
+---
+title: Decision Record Template
+section: templates
+status: genesis
+visibility: internal
+---
+
 # Decision Record
 
 ## Date
