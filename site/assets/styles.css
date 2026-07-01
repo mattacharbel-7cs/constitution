@@ -49,12 +49,16 @@ a {
 }
 
 .brand {
-  display: inline-block;
-  color: var(--gold-soft);
-  font-size: 1.55rem;
-  letter-spacing: 0;
-  text-decoration: none;
+  display: block;
+  width: 128px;
+  max-width: 100%;
   margin-bottom: 2rem;
+}
+
+.brand img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 nav section {

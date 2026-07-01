@@ -32,6 +32,7 @@ const pages = flattenNavigation(nav.sections);
 
 await mkdir(path.join(distDir, "assets"), { recursive: true });
 await copyFile(path.join(assetsDir, "styles.css"), path.join(distDir, "assets", "styles.css"));
+await copyFile(path.join(assetsDir, "logo.svg"), path.join(distDir, "assets", "logo.svg"));
 
 await writePage("index.html", renderHome(nav));
 
@@ -339,7 +340,9 @@ function layout({ title, nav, currentPath, body }) {
 <body>
   <div class="site-shell">
     <aside class="sidebar" aria-label="Primary navigation">
-      <a class="brand" href="${rootHref()}">7CS</a>
+      <a class="brand" href="${rootHref()}" aria-label="7CS Constitution home">
+        <img src="${withBasePath("/assets/logo.svg")}" alt="7CS">
+      </a>
       ${renderNavigation(nav.sections, currentPath)}
     </aside>
     <div class="page">
